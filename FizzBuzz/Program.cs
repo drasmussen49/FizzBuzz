@@ -6,8 +6,8 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            /* FizzBuzz myObj = new FizzBuzz();
-            string myNum = myObj.Get(3);
+            /*FizzBuzz myObj = new FizzBuzz();
+            string myNum = myObj.Get(30);
             Console.WriteLine(myNum);*/
         }
     }
@@ -15,7 +15,7 @@ namespace FizzBuzz
     {
         public string Get(int num)
         {
-            if (num == 15)
+            if (num % 5 == 0 && num % 3 == 0)
             {
                 return "FizzBuzz";
             }
